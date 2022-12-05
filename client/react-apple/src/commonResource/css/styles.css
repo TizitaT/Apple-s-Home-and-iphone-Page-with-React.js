@@ -1,0 +1,453 @@
+/* General Styling*/
+body {
+  font-family: "Montserrat", sans-serif;
+}
+a {
+  color: #06c;
+}
+img {
+  max-width: 100%;
+}
+.white {
+  color: #fff;
+}
+.black {
+  color: #1d1d1f;
+}
+.grey {
+  color: #86868b;
+}
+.top-50 {
+  margin-top: 50px;
+}
+.top-100 {
+  margin-top: 100px;
+}
+/* Header Style */
+.nav-wrapper {
+  background: rgba(0, 0, 0, 0.8);
+  font-size: 0.85em;
+  font-weight: 200;
+}
+.nav-wrapper ul li a {
+  color: #fff;
+}
+.navbar-toggler {
+  color: #fff;
+}
+.nav-item {
+  text-align: left !important;
+  padding: 4px 0;
+  border-bottom: 1px solid #4b4b4b;
+}
+
+/* my style starts here*/
+
+/* general */
+
+.container-fluid,
+.container-sm,
+.container-md,
+.container-lg,
+.container-xl {
+  width: 100%;
+  padding-right: 0;
+  padding-left: 0;
+  margin-right: auto;
+  margin-left: auto;
+}
+h2 {
+  font-size: 32px;
+  font-weight: 600;
+  font-family: Arial, Helvetica, sans-serif;
+}
+li {
+  list-style: none;
+}
+.learn-buy a:after {
+  font-family: "FontAwesome";
+  font-weight: 900;
+  content: "\f105";
+  padding-right: 15px;
+  padding-left: 10px;
+}
+.learn-buy a:hover {
+  text-decoration: underline;
+}
+/* .learn-buy a:hover::after {
+  text-decoration: none;
+} */
+.apple-tv a {
+  text-decoration: none;
+  font-size: 17px;
+  line-height: 1.23536;
+  font-weight: 400;
+  font-family: "SF Pro Text", "SF Pro Icons", "Helvetica Neue", "Helvetica",
+    "Arial", sans-serif;
+}
+
+.description {
+  font-size: 19px;
+  line-height: 1.21053;
+  font-weight: 400;
+  letter-spacing: 0.012em;
+  font-family: "SF Pro Display", "SF Pro Icons", "Helvetica Neue", "Helvetica",
+    "Arial", sans-serif;
+}
+.MacBook-pro a,
+.ipad-air a {
+  color: #2997ff;
+}
+
+/* unicef */
+.unicef-logo {
+  background-image: url("../images/icons/unicef_logo_dark__ejvlglygb3ee_small\ \(1\).png");
+  width: 106px;
+  height: 28px;
+  background-size: 106px 28px;
+  background-position: center;
+  background-repeat: no-repeat;
+  /* background-position-x: right; */
+}
+.unicef div {
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+  text-align: center;
+}
+
+.donate {
+  max-width: 320px;
+}
+/* i put the after on the main div so that it would be out of the link not in. then gave it the color */
+.donate:after {
+  font-family: "FontAwesome";
+  font-weight: 700;
+  content: "\f08e";
+  padding-left: 10px;
+  color: #06c;
+}
+.unicef {
+  background-color: #f5f5f7;
+  padding: 80px 0 20px;
+}
+
+/* macBook Air Style */
+.macBookAir-logo {
+  background-image: url("../images/icons/logo_hero_macbookair__supercharged_small\ \(1\).png");
+  height: 29px;
+  background-size: 178px 29px;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.macbook-air {
+  background-image: url(../images/home/hero_macbookair__el7scava26mq_small.png);
+  height: 500px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  position: relative;
+}
+.macbook-air {
+  background-color: #fbfbfd;
+}
+/* MacBook Pro styling */
+.macBookPro-logo {
+  background-image: url(../images/icons/logo_hero_mbp13__supercharged_small.png);
+  height: 48px;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.MacBook-pro {
+  background-image: url(../images/home/hero_mbp13__f88jcbca0ve6_small.jpg);
+  height: 500px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  /* background-color: #000000; */
+}
+
+/* iphone 13 styling */
+.iphone13 {
+  background-image: url(../images/home/hero_iphone13_avail__gnqqkzuai6um_small.jpg);
+  height: 617px;
+  background-size: 1068px 617px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+/* iphone 13 pro and watch styling */
+.iphone13-pro {
+  background-image: url(../images/home/promo_iphone13pro_avail__beadms4ldidu_small_2x.jpg);
+  height: 548px;
+  background-size: 734px 548px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.watch-logo {
+  background-image: url(../images/icons/promo_logo_watch_series7_small.png);
+  height: 47px;
+  background-size: 122px 47px;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.watch-bcg {
+  background-image: url(../images/home/promo_watch_lte__djeaso7ukrsm_small.jpg);
+  height: 548px;
+  background-size: 734px 548px;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+/* ipad air and Fitness starts here  */
+
+/* ipad air */
+.ipadair-logo {
+  background-image: url(../images/icons/promo_logo_ipadair__frwnnsqveeye_small.png);
+  height: 30px;
+  background-size: 112px 30px;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.ipad-air {
+  background-image: url(../images/home/promo_ipadair_avail__ferd4bfpcdm6_small.jpg);
+  height: 548px;
+  background-size: 734px 548px;
+  background-repeat: no-repeat;
+  background-color: #161617;
+  background-size: cover;
+  background-position: center;
+}
+
+/* fitness */
+.fitness-logo {
+  background-image: url(../images/icons/logo_promo_katy_perry__bb5nun6svbsi_small.png);
+  height: 32px;
+  background-size: 141px 32px;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.fitness {
+  background-image: url(../images/home/promo_katy_perry__eqekd92guu4i_small.jpg);
+  height: 548px;
+  background-size: 734px 548px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.fitness a {
+  color: #a6ff00;
+}
+
+/* card style */
+.card-logo {
+  background-image: url(../images/icons/logo__applecard_small.png);
+  height: 27px;
+  background-size: 88px 27px;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.apple-card {
+  background-image: url(../images/home/tile__cauwwcyyn9hy_small.jpg);
+  height: 548px;
+  background-size: 734px 548px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+/* apple tv style starts here */
+
+.tv-logo {
+  background-image: url(../images/icons/logo__tv+_small.png);
+  height: 27px;
+  background-size: 69px 27px;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.chacha-logo {
+  background-image: url(../images/icons/logo_promo_cha_cha__geli2utpi7u6_small.png);
+  height: 89px;
+  background-size: 221px 89px;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.apple-tv {
+  background-image: url(../images/home/promo_cha_cha__bqi73prhci9y_small.jpg);
+  height: 548px;
+  background-size: 734px 548px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.apple-tv a {
+  color: #403200;
+}
+.apple-tv a:hover {
+  text-decoration: underline;
+}
+.apple-tv a::after {
+  font-family: "FontAwesome";
+  font-weight: 900;
+  content: "\f144";
+  padding-left: 10px;
+}
+.apple-tv a:hover::after {
+  text-decoration: none;
+}
+
+/* mediaQuery starts */
+
+@media (min-width: 768px) {
+  .donate {
+    max-width: 100%;
+  }
+
+  .unicef-logo {
+    background-position: right;
+  }
+  .macbook-air-internal h2 {
+    font-size: 50px;
+  }
+  .macbook-air {
+    background-image: url(../images/home/hero_macbookair__el7scava26mq_medium.png);
+    height: 736px;
+  }
+}
+@media (min-width: 1069px) {
+  .macbook-air {
+    background-image: url(../images/home/hero_macbookair__el7scava26mq_large.png);
+    /* width: 3008px; */
+    height: 624px;
+    background-size: 3008px 624px;
+  }
+  .macbook-air-internal {
+    position: absolute;
+    top: 35%;
+    left: 0;
+    width: 70%;
+    padding: 20px 0 0;
+  }
+  .macbook-air a,
+  .MacBook-pro a,
+  .iphone13 a {
+    font-size: 21px;
+    letter-spacing: inherit;
+  }
+}
+
+/* Footer Styling */
+.footer-wrapper {
+  background-color: #f5f5f7;
+  color: #86868b;
+  font-size: 0.7em;
+}
+.footer-wrapper ul {
+  list-style: none;
+  padding-bottom: 10px;
+  padding-inline-start: 0px;
+}
+.footer-wrapper ul a {
+  color: #515154;
+}
+.my-apple-wrapper {
+  padding-bottom: 15px;
+  margin-top: 10px;
+}
+.copyright {
+  margin-top: 15px;
+}
+.footer-country {
+  margin-top: 8px;
+}
+.flag-wrapper {
+  display: inline-block;
+  vertical-align: middle;
+  padding-right: 5px;
+}
+.footer-country-name {
+  display: inline-block;
+  vertical-align: middle;
+}
+.footer-links-terms ul {
+  display: flex;
+}
+.footer-links-terms ul li {
+  padding: 0 10px;
+  border-right: 1px solid #d2d2d7;
+}
+.footer-links-terms ul li:first-child {
+  padding-left: 0;
+}
+.footer-links-terms ul li:last-child {
+  border-right: 0;
+}
+
+.footer-links-wrapper h3 {
+  font-size: 12px;
+  font-weight: 600;
+  color: #1d1d1f;
+}
+.footer-wrapper ul li {
+  padding: 4px 0;
+}
+.upper-text-container {
+  border-bottom: 1px solid #d2d2d7;
+  padding: 17px 0 10px;
+  margin-bottom: 20px;
+}
+.upper-text-container a {
+  color: #515154;
+}
+
+/*Media Query*/
+/* Footer */
+@media (max-width: 768px) {
+  .footer-links-wrapper ul {
+    display: none;
+  }
+  .footer-links-wrapper h3 {
+    padding: 10px 0;
+    border-bottom: 1px solid #ccc;
+  }
+  .footer-links-wrapper h3:after {
+    font-family: "FontAwesome";
+    content: "\f067";
+    padding-left: 10px;
+    position: absolute;
+    right: 25px;
+  }
+  .footer-links-wrapper h3.expanded:after {
+    font-family: "FontAwesome";
+    content: "\f00d";
+    padding-left: 10px;
+    position: absolute;
+    right: 25px;
+  }
+}
+@media (min-width: 768px) {
+  /*Nav bar*/
+  .nav-item {
+    text-align: center !important;
+    padding: 0;
+    border-bottom: 0px;
+  }
+  /*Footer styling*/
+  .my-apple-wrapper {
+    border-bottom: 1px solid #d2d2d7;
+  }
+}
+@media (min-width: 992px) {
+  /*Footer styling*/
+  .copyright {
+    margin-top: 10px;
+  }
+  .footer-country {
+    margin-top: 10px;
+  }
+  .footer-links-terms {
+    margin-top: 10px;
+  }
+}
